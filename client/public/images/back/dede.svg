@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1547px" height="813px" viewBox="0 0 1547 813" version="1.1" 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>process-bkg-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="98.1846098%" x2="50%" y2="2.94902991e-15%" id="linearGradient-1">
+            <stop stop-color="#fff" offset="0%"></stop>
+            <stop stop-color="#1e90ff" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M1546.14176,339.423093 C1563.75798,617.581587 1045.81235,906.158209 553.915223,783.649411 C151.619642,683.455325 -67.3163723,274.032297 19.2213243,115.772849 C105.759021,-42.4866002 320.446086,-22.6433085 513.461409,82.9733834 C708.37767,189.664796 932.436321,313.474604 1132.93318,211.230678 C1333.43005,108.986752 1536.88159,192.942377 1546.14176,339.423093 Z" id="process-bkg-1" fill="url(#linearGradient-1)" transform="translate(773.525539, 406.487606) scale(-1, 1) translate(-773.525539, -406.487606) "></path>
+    </g>
+</svg>

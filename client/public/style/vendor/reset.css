@@ -1,0 +1,176 @@
+ @import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700');
+ @font-face {
+     font-family: 'Gotham Pro Black';
+     src: url('../fonts/GothamPro-Black.eot');
+     src: url('../fonts/GothamPro-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/GothamPro-Black.woff') format('woff'), url('../fonts/GothamPro-Black.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+ }
+
+ @font-face {
+     font-family: 'Geometria Bold';
+     src: url('../fonts/Geometria-Bold.eot');
+     src: url('../fonts/Geometria-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Geometria-Bold.woff') format('woff'), url('../fonts/Geometria-Bold.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+ }
+
+ @font-face {
+     font-family: 'Gilroy Bold';
+     src: url('../fonts/Gilroy-Bold.eot');
+     src: url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Gilroy-Bold.woff') format('woff'), url('../fonts/Gilroy-Bold.ttf') format('truetype');
+     font-weight: bold;
+     font-style: bold;
+ }
+
+ @font-face {
+     font-family: 'Gilroy Regular';
+     src: url('../fonts/Gilroy-Regular.eot');
+     src: url('../fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Gilroy-Regular.woff') format('woff'), url('../fonts/Gilroy-Regular.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+ }
+
+ @font-face {
+     font-family: 'Druk Wide';
+     src: url("../fonts/Druk_Wide_Medium.otf") format("opentype");
+ }
+
+ html {
+     font-family: 'Gilroy Bold';
+     color: #13182e;
+     line-height: 1.28;
+     background-color: #fff;
+ }
+
+ body {
+     background-color: #fff;
+ }
+
+ body a {
+     text-decoration: none;
+ }
+
+ a {
+     outline: 0;
+     color: #000;
+ }
+
+ a:hover {
+     text-decoration: none
+ }
+
+ a::selection {}
+
+ p {
+     margin: 0 0 10px
+ }
+
+ .subHeader {
+     font-size: 21px;
+     font-weight: 200;
+     line-height: 30px;
+     margin-bottom: 10px
+ }
+
+ em {
+     font-style: italic
+ }
+
+ h1, h2, h3, h4, h5, h6 {
+     margin: 10px 0;
+     font-family: inherit;
+     font-weight: bold;
+     line-height: 20px;
+     color: inherit;
+     text-rendering: optimizelegibility
+ }
+
+ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+     font-weight: normal;
+     color: #7b7b7b
+ }
+
+ h1, h2, h3 {
+     line-height: 40px
+ }
+
+ h1 {
+     font-size: 39px
+ }
+
+ h2 {
+     font-size: 31px
+ }
+
+ h3 {
+     font-size: 23px
+ }
+
+ h4 {
+     font-size: 16px
+ }
+
+ h5 {
+     font-size: 14px
+ }
+
+ h6 {
+     font-size: 11px
+ }
+
+ h1 small {
+     font-size: 24px
+ }
+
+ h2 small {
+     font-size: 18px
+ }
+
+ h3 small {
+     font-size: 16px
+ }
+
+ h4 small {
+     font-size: 14px
+ }
+
+ ul, ol {
+     padding: 0
+ }
+
+ ul ul, ul ol, ol ol, ol ul {
+     margin-bottom: 0
+ }
+
+ li {
+     line-height: 20px
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ /*a:hover, a:focus {
+    text-decoration: none;
+}*/
+
+ /*a:focus {
+    outline: thin dotted #333;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}*/
+
+ html * {
+     color-profile: sRGB;
+     rendering-intent: auto
+ }
+
+ * {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+     border: none;
+     margin: 0;
+     padding: 0
+ }

@@ -1,0 +1,491 @@
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 340px) and (max-device-width: 720px) {
+    /* end empty page */
+    .landing-devider {
+        display: none;
+    }
+    .logo>img {
+        height: 48px;
+    }
+    .bg-video>video {
+        display: none;
+    }
+    .menu-btn>.menu-text {
+        font-size: 13px;
+    }
+    .main-body {
+        align-items: flex-start
+    }
+    .main-title {
+        text-align: left;
+        font-size: 24px;
+    }
+    .main-title-info {
+        text-align: left;
+        font-size: 24px;
+    }
+    .main-subtitle {
+        text-align: left;
+        font-size: 24px;
+    }
+    .about-title {
+        font-size: 30px;
+    }
+    .about-body {
+        padding: 10vh 0;
+        font-size: 13px;
+    }
+    .about-info {
+        width: 100%;
+        line-height: 16px
+    }
+    .about-cases {
+        margin-top: 16px;
+        flex-flow: column nowrap
+    }
+    .about-case {
+        display: flex;
+        flex-flow: row nowrap
+    }
+    .about-case>h4 {
+        font-size: 24px;
+        margin-right: 16px;
+    }
+    .landing__content {
+        width: 100%;
+    }
+    .wedo-body {
+        padding: 10vh 0;
+        font-size: 13px;
+    }
+    .wedo-title {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    .bg-about>div {
+        display: none;
+    }
+    .wedo-cards {}
+    .wedo-card {
+        width: calc(50% - 6px);
+        margin-right: 12px;
+        margin-bottom: 12px;
+        padding: 16px
+    }
+    .wedo-card:nth-child(2n) {
+        margin-right: 0;
+    }
+    .wedo-card-num {
+        font-size: 24px;
+    }
+    .wedo-card-title {
+        font-size: 16px;
+    }
+    .wedo-card-info {
+        font-size: 13px;
+    }
+    .price-body {
+        padding: 10vh 0;
+    }
+    .price-title {
+        font-size: 30px;
+    }
+    .price-block {
+        /* flex-flow: column nowrap */
+        flex-direction: row-reverse;
+    }
+    .price-info {
+        width: 50%;
+        padding-left: 0;
+    }
+    .price-cards {
+        width: 50%;
+        flex-flow: column nowrap;
+    }
+    .price-card {
+        width: calc(100% - 16px);
+        padding: 16px;
+        /* box-shadow: none; */
+        margin-bottom: 8px;
+    }
+    .price-card:hover {
+        transform: none;
+    }
+    .price-card-name {
+        font-size: 13px;
+    }
+    .price-card-num {
+        font-size: 13px;
+    }
+    .price-card-info {
+        display: none;
+    }
+    .price-info-title {
+        font-size: 20px;
+    }
+    .price-info-num {
+        font-size: 16px;
+    }
+    .price-info-text {
+        font-size: 13px;
+        line-height: normal
+    }
+    .price-info-list>li {
+        font-size: 12px;
+        margin: 2px 0;
+    }
+    .how-body {
+        padding: 10vh 0;
+    }
+    .how-title-text {
+        font-size: 30px;
+    }
+    .how-card {
+        width: 100%;
+    }
+    .how-title-arrays {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center
+    }
+    .how-card-num {
+        font-size: 48px;
+    }
+    .how-card-info {
+        font-size: 13px;
+    }
+    .how-card-list {
+        font-size: 13px;
+    }
+    .contact-body {
+        flex-flow: column nowrap;
+    }
+    .contact-content {
+        width: 100%;
+        padding: 10vh 3.928571428571428vw;
+        background: #13182e;
+    }
+    .contact-map {
+        width: 100%;
+        height: 200px;
+    }
+    .con-container {
+        padding: 0 0;
+    }
+    .menu-btn>.menu-bottom {
+        margin-top: 0;
+    }
+    .menu__content {
+        margin: 0 0;
+        width: 100%;
+        flex-flow: column nowrap
+    }
+    .menu-links {
+        width: 100%;
+    }
+    .menu-contacts {
+        display: none;
+    }
+    .wedo-title {}
+}
+
+@media only screen and (min-device-width: 200px) and (max-device-width: 340px) {
+    /* end empty page */
+    .landing-devider {
+        display: none;
+    }
+    .bg-video>video {
+        display: none;
+    }
+    .main-body {
+        align-items: flex-start
+    }
+    .menu-btn>.menu-text {
+        font-size: 13px;
+    }
+    .logo {
+        font-size: 13px;
+    }
+    .main-title {
+        text-align: left;
+        font-size: 24px;
+    }
+    .main-title-info {
+        text-align: left;
+        font-size: 24px;
+    }
+    .main-subtitle {
+        text-align: left;
+        font-size: 24px;
+    }
+    .about-body {
+        padding: 10vh 0;
+        font-size: 13px;
+    }
+    .bg-about>div {
+        display: none;
+    }
+    .about-info {
+        width: 100%;
+        line-height: 16px;
+        font-size: 10px;
+    }
+    .about-title {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+    .about-cases {
+        margin-top: 16px;
+        flex-flow: column nowrap
+    }
+    .about-case {
+        display: flex;
+        flex-flow: row nowrap
+    }
+    .about-case>h4 {
+        font-size: 24px;
+        margin-right: 16px;
+    }
+    .landing__content {
+        width: 100%;
+    }
+    .wedo-body {
+        padding: 10vh 0;
+        font-size: 13px;
+    }
+    .wedo-title {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    .wedo-cards {}
+    .wedo-card {
+        width: calc(50% - 6px);
+        margin-right: 12px;
+        margin-bottom: 12px;
+        padding: 16px
+    }
+    .wedo-card:nth-child(2n) {
+        margin-right: 0;
+    }
+    .wedo-card-num {
+        font-size: 24px;
+    }
+    .wedo-card-title {
+        font-size: 13px;
+    }
+    .wedo-card-info {
+        font-size: 10px;
+    }
+    .price-body {
+        padding: 5vh 0;
+    }
+    .price-title {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+    .price-block {
+        /* flex-flow: column nowrap */
+        flex-direction: row-reverse;
+    }
+    .price-info {
+        width: 50%;
+        padding-left: 0;
+    }
+    .price-cards {
+        width: 50%;
+        flex-flow: column nowrap;
+    }
+    .price-card {
+        width: calc(100% - 16px);
+        padding: 16px;
+        margin-bottom: 8px;
+    }
+    .price-card:hover {
+        transform: none;
+    }
+    .price-card-name {
+        font-size: 11px;
+    }
+    .price-card-num {
+        font-size: 11px;
+    }
+    .price-card-info {
+        display: none;
+    }
+    .price-info-title {
+        font-size: 16px;
+    }
+    .price-info-num {
+        font-size: 14px;
+    }
+    .price-info-text {
+        font-size: 11px;
+        line-height: normal
+    }
+    .price-info-list>li {
+        font-size: 11px;
+        margin: 2px 0;
+    }
+    .how-body {
+        padding: 10vh 0;
+    }
+    .how-title {
+        margin-bottom: 16px;
+    }
+    .how-title-text {
+        font-size: 24px;
+        font-size: 30px;
+    }
+    .how-title-arrays {
+        display: flex;
+        flex-flow: row nowrap
+    }
+    .how-card {
+        width: 100%;
+    }
+    .how-card-num {
+        font-size: 36px;
+    }
+    .how-card-title {
+        font-size: 16px;
+    }
+    .how-card-info {
+        font-size: 13px;
+    }
+    .how-card-list {
+        font-size: 13px;
+    }
+    .contact-title {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    .contact-body {
+        flex-flow: column nowrap;
+    }
+    .contact-content {
+        width: 100%;
+        padding: 10vh 3.928571428571428vw;
+        height: 100%;
+    }
+    .contact-map {
+        width: 100%;
+        height: 200px;
+    }
+    .con-container {
+        padding: 0 0;
+    }
+    .menu-btn>.menu-bottom {
+        margin-top: 0;
+    }
+    .menu__content {
+        margin: 0 0;
+        width: 100%;
+        flex-flow: column nowrap
+    }
+    .menu-links {
+        width: 100%;
+    }
+    .menu-contacts {
+        display: none;
+    }
+    .contact-phone {
+        margin-bottom: 16px;
+    }
+    .contact-phone>a {
+        font-size: 13px;
+    }
+    .contact-email {
+        margin-bottom: 16px;
+    }
+    .form-title {
+        display: none;
+    }
+    .contact-email>a {
+        font-size: 13px;
+    }
+    .form>input, .form>textarea {
+        font-size: 13px
+    }
+}
+
+@media only screen and (min-device-width: 720px) and (max-device-width: 1080px) {
+    .main-title-info {
+        font-size: 72px;
+    }
+    .about-info {
+        width: 75%;
+    }
+    .about-body {
+        padding: 10vh 50px;
+    }
+    .wedo-body {
+        padding: 10vh 50px;
+    }
+    .how-body {
+        padding: 10vh 50px;
+    }
+    .wedo-card {
+        padding: 20px;
+        width: calc(50% - 24px);
+        overflow: hidden;
+    }
+    .wedo-card-title {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .how-card {
+        width: calc(75%);
+        outline: none;
+        padding: 0 12px;
+    }
+    .contact-content {
+        padding: 10vh 50px;
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+
+@media only screen and (min-width: 321px) {
+    /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+
+@media only screen and (max-width: 320px) {
+    /* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Styles */
+}
+
+/* iPads (landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-width: 1224px) {
+    /* Styles */
+}
+
+/* Large screens ----------- */
+
+@media only screen and (min-width: 1720px) {}
+
+/* iPhone 4 ----------- */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+    /* Styles */
+}

@@ -1,0 +1,124 @@
+.header {
+  position: fixed;
+  padding: 3.928571428571428vw 0 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-btn {
+  cursor: pointer;
+  color: #1e90ff
+}
+
+.logo {
+  color: #1e90ff;
+  height: 100%;
+  font-family: 'Gilroy Bold';
+  font-size: 24px;
+}
+
+.logo>img {
+  height: 100%;
+  border-radius: 50%;
+  height: 72px;
+  border: 1px solid #1e90ff;
+  cursor: pointer;
+}
+
+.menu-btn>.menu-text {
+  opacity: 1;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  transition: opacity 0.3s, transform 0.3s;
+  color: currentColor;
+}
+
+.menu-btn>.menu-top {
+  width: 100%;
+  height: 2px;
+  margin-top: 8px;
+  background: currentColor;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.menu-btn>.menu-bottom {
+  width: 100%;
+  height: 2px;
+  margin-top: 8px;
+  background: currentColor;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.menu {
+  position: fixed;
+  top: 0px;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background: #13182e;
+  color: #fff;
+  transition: left 0.5s;
+  overflow: hidden;
+}
+
+.menu__content {
+  width: 80%;
+  margin: 0 auto;
+  min-height: 100%;
+  padding: 20vh 0 0 0;
+  display: flex;
+}
+
+.menu-links {
+  width: 50%;
+}
+
+.menu-link>a {
+  display: block;
+  padding: 1em;
+  font-size: 24px;
+  color: #fff
+}
+
+.menu-link>a:hover {
+  color: #1e90ff;
+}
+
+.menu-contacts {
+  width: 50%;
+}
+
+.menu-contact {
+  display: flex;
+  margin-bottom: 20px
+}
+
+.menu-contact-name {
+  flex: 0 0 30%;
+  font-family: 'Gilroy Regular';
+  color: #1e90ff
+}
+
+.menu-contact-value>a {
+  color: #fff;
+  display: block;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.menu-contact-value>a:hover {
+  color: #1e90ff
+}
+
+.menu-contact-divider {
+  border-color: #1e90ff;
+  margin: 36px 0;
+}
